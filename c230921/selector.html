@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- 선택자
+    1. 전체 선택자
+        문서의 모든 요소에 해당 스타일을 적용할 때(주로 모든 하위요소의 스타일을 한꺼번에 적용)
+        웹 브라우저의 기본 스타일을 초기화할 때 사용한다.
+        *{속성 : 값} 
+    2. 타입 선택자
+        특정 태그를 사용한 모든 요소에 스타일을 적용할 때
+        해당 태그를 사용한 모든 요소에 적용
+    3. 클래스 선택자{
+        같은 태그라도 일부분은 다른 스타일을 적용하고 싶을 때.
+        클래스 이름을 사용해서 다른 선택자와 구별하고,
+        클래스 하나에 두개 이상의 스타일을 적용하고 싶다면, 공백으로 구별함
+    4. 아이디 선택자
+        웹 문서의 특정 부분을 선택해서 스타일로 적용
+        클래스선택자와의 차이점은, 클래스 선택자는 문서에서 여러번 적용할 수 있음.
+        아이디 선택자는 주로 문서의 레이아웃과 관련된 스타일을 지정
+    5. 그룹 선택자
+        같은 스타일 규칙을 사용해야 하는 경우, ,로 구분해서 선택자를 나열한 다음 스타일 규칙을 적용
+        ex) h2,p{font-style : inherit;}
+
+     }   -->
+    <style>
+        span
+        h2 {
+            font-style: inherit;
+        }
+        p{
+            font-style: italic;
+            border: 1px dotted #000;
+        }
+        .accent{
+            border: 1px solid black;
+        }
+        .bg{
+            background-color: aqua;
+        }
+        #container{
+                width: 500px;
+                padding: 10px;
+                border: 1px solid blueviolet;
+                text-align: center;
+
+        }
+    </style>
+</head>
+<body>
+    <h2 class="accent">고양이</h2>
+    <p>이들이 중동을 시작으로 서쪽으로는<span class="accent"> 유럽, 동쪽으로는 실크로드를 타고</span> 동아시아에 전해졌다</p>
+   
+
+    <div id="container">
+        <h2 class="accent bg">강아지</h2>
+        <p>과거에는 성견은 개, 어린 개를 강아지라고 확실하게 구분짓는 경우가 많았지만 점점 성견도 강아지라고 부르는 사람들이 많아지는 편. </p>
+        <p>강쥐라고 줄여서 쓰는 경우도 있다.</p>
+    </div>
+</body>
+</html>

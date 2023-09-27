@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.div-scoreboard{
+    width: 400px;
+    background-color: aqua;
+    text-align: center;
+    padding: 5px;
+    color: black;
+}
+.div-scoreboard_inner{
+    margin: auto;
+    border: 2px solid #fff;
+    box-sizing: border-box; 
+}
+.div-shoots-left{
+    margin-top: 10px;
+}
+#shoots-left{
+    background-color: black;
+    padding: 3px;
+}
+.div-score{
+    display: inline-block;
+    border: 1px solid #fff;
+    padding: 10px 30px;
+}
+.div-score-name{
+    font-size: 20px;
+}
+.div-score-number{
+    font-size: 30px;
+    color: red;
+    background-color: black;
+    line-height:  30px;
+}
+#text{
+    height: 30px;
+}
+button{
+    padding: 10px 20px;
+    font-size: 15px;
+}
+.div-pannel{
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+
+}
+.div-control-pannel{
+    width: 400px;
+    background-color: aquamarine;
+    text-align: center;
+    padding: 2px;
+    color: #fff;
+}
+.div-control-name{
+    
+}

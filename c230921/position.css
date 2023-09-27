@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+p{
+    width: 300px; 
+    border: 1px solid black;
+    padding: 10px;
+}
+#static{
+    position: static;
+}
+#relative1{
+    position: relative;
+}
+#relative2{
+    color: blue;
+    position: absolute;
+    left: 200px;
+    top: 100px;
+}
+#fixed{
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    right: 30px;
+    top: 50px;
+}
+#test{
+    position: relative;
+}

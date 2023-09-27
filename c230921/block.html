@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        nav ul{
+            list-style: none;
+        
+        }
+        /* inline block => 인라인과 블록의 속성을 둘다 갖고 있으며, margin과 padding을 정할 수 있다 */
+        nav ul li{
+            display: inline-block;
+            border: 1px solid black;
+            padding: 20px;
+            margin: 0 20px;
+
+        }
+        /* div{
+            margin-bottom: 20px;
+        }
+        .box1{
+            box-sizing: content-box;
+            width: 200px;
+            height: 100px;
+            border: 1px solid #ccc;
+        }
+        .box2{
+            /* box sizing => 요소의 크기를 쉽게 계산하려면, border box 명령어를 이용하는 게 좋음 */
+            box-sizing: border-box;
+            width: 200px;
+            height: 100px;
+            border: 1px solid red;
+        }*/
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>item1</li>
+            <li>item2</li>
+            <li>item3</li>
+            <li>item4</li>
+            <li>item5</li>
+        </ul>
+
+    </nav>
+
+
+
+    <!-- <div class="box1">
+
+    </div>
+    <div class="box2">
+
+    </div> -->
+</body>
+</html>
+<!-- 박스모델
+웹 문서의 내용을 박스 형태로 정의하는 방법
+요 개념은 매우 자주 사용하기 때문에 기억해두는게 좋음
+
+1.블록레벨 요소
+태그를 사용해서 요소를 삽입했을 때 혼자 한줄을 차지하는 녀석들
+-너비가 100%
+-다른 요소가 왼쪽이나 오른쪽에 올 수가 없다.(너비가 100%이기 때문)
+-h태그, div태그, p태그 등등
+2. 인라인 레벨 요소
+-한줄을 차지하지 않음.
+-콘텐츠만큼만 영역을 차지하고, 나머지 공간에는 다른 요소가 올 수 있음.
+-한줄에 인라인 레벨 요소들이 여러개가 올 수 있다.
+-span, img, strong....
+
+
+-->

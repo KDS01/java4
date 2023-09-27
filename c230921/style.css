@@ -1,0 +1,44 @@
+#container{
+    width: 60%;
+    padding: 10px;
+    display: block;
+    margin: auto;
+}
+h1{
+    color: white;
+    background: black;
+    /* 제목이랑 다른 요소간의 마진 여백을 나타냄 */
+    margin: 0;
+    padding: 10px;
+    font-size : 30px;
+    text-align: center;
+}
+#check{
+    width: 640px;
+    text-align: center;
+    border: 1px solid #cccc
+    ;
+}
+h3{
+    color: black;
+    text-align: center;
+    padding: 15px;
+}
+p{
+    text-align: center;
+    line-height: 30px;
+    font-weight: 100;
+}
+h2{
+    text-align: center;
+    background: plum;
+    color: white;
+    font-size: 25px;
+}
+img{
+    margin: auto;
+    display: block;
+}
+ol{
+    text-align: center;
+}

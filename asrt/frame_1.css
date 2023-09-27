@@ -1,0 +1,123 @@
+/*
+ *	This content is generated from the PSD File Info.
+ *	(Alt+Shift+Ctrl+I).
+ *
+ *	@desc 		
+ *	@file 		frame_1
+ *	@date 		Friday 22nd of September 2023 06:11:57 AM
+ *	@title 		Page 2
+ *	@author 	
+ *	@keywords 	
+ *	@generator 	Export Kit v1.3.figma
+ *
+*/
+
+/* Only edit this if you know what you are doing! */
+body { margin: 0px; padding: 0px; font-family:"Arial"; overflow-x:hidden; }
+
+/* Only edit this if you know what you are doing! */
+img { position: absolute; display: block; margin: 0px; border: none; padding: 0px; }
+
+/* Only edit this if you know what you are doing! */
+div { position: absolute; }
+
+#content-container { display: block; position: relative; width: 1123px; height: 552px; overflow: hidden;  margin-left: auto; margin-right: auto;  }
+
+#_bg__frame_1 {
+	top: 0px;
+	left: 0px;
+	width: 1123px;
+	height: 552px;
+	background:rgba(255,255,255,1);
+}
+#livingroom_1 {
+	width: 100vw;
+	height: 98vh;
+	background-image: url(/asrt/image/livingRoom1.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+#rectangle_1 {
+	opacity:0.46999999880791;
+	top: 395px;
+	left: 20px;
+	width: 711px;
+	height: 143px;
+	-ms-border-radius: 15px;
+	-o-border-radius: 15px;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	border-radius: 15px;
+	background:rgba(255,255,255,0.47);
+}
+#rectangle_2 {
+	opacity:0.52999997138977;
+	top: 340px;
+	left: 29px;
+	width: 194px;
+	height: 43px;
+	-ms-border-radius: 15px;
+	-o-border-radius: 15px;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	border-radius: 15px;
+	background:rgba(255,255,255,0.53);
+}
+#rectangle_5 {
+	top: 83px;
+	left: 1073px;
+	width: 50px;
+	height: 42px;
+}
+#nar {
+	top: 345px;
+	left: 37px;
+	width: 180px;
+	height: 39.5px;
+	overflow: hidden;
+	font-family: Inter;
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+	color:#000000;
+}
+#char_lines {
+	top: 490px;
+	left: 41px;
+	width: 702.5px;
+	height: 41.5px;
+	overflow: hidden;
+	font-family: Inter;
+	font-size: 25px;
+	font-weight: bold;
+	text-align: left;
+	color:#000000;
+}
+#menu {
+	top: 91px;
+	left: 1078px;
+	width: 43.2px;
+	height: 31.2px;
+	overflow: hidden;
+	font-family: Inter;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center;
+	color:#000000;
+}
+#ellipse_1 {
+	opacity:0.46999999880791;
+	top: 390px;
+	left: 835px;
+	width: 144px;
+	height: 148px;
+	-ms-border-radius: 72px / 74px;
+	-o-border-radius: 72px / 74px;
+	-moz-border-radius: 72px / 74px;
+	-webkit-border-radius: 72px / 74px;
+	border-radius: 72px / 74px;
+	background:rgba(255,255,255,0.47);
+}
+
+/* Add your custom CSS here */
+

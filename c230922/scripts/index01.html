@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .rectangle{
+            width: 100px;
+            height: 100px;
+            background-color: blueviolet;
+        }
+        
+    </style>
+    
+</head>
+<body>
+    <!-- //이벤트 리스너  사용자가 특정 이벤트를 입력했을 때, 해당 이벤트 리스너가 발동되게 함
+    addEventListener('event', '발동될 함수')-->
+    <button id="btn">나를 눌러봐</button>
+    <div class="rectangle" id="rotate">
+
+    </div>
+
+
+    <script>
+        const btn = document.getElementById("btn");
+        //
+        btn.addEventListener('click',alertEvent);
+        
+        function alertEvent(){
+            alert("버튼이 클릭되었음");
+        }
+        let angle= 0;
+        const rectangle = document.getElementById("rotate");
+        rectangle.addEventListener('click',()=>{
+            angle+=45;
+            rectangle.style.transform='rotate(${angle}deg)';
+        });
+    </script>
+</body>
+</html>

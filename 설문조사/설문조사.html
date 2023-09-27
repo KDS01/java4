@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>설문조사</title>
+    <style>
+        .bgimg{
+            background-image: url('/설문조사/배경화면.webp');
+            background-size: auto;
+           
+        }
+    </style>
+</head>
+
+</div>
+<body>
+    <div class="bgimg">
+    <fieldset>
+        <legend><h1><b>설문 대상자 정보</b></h1></legend>
+    <form action="" method="get">
+        <h2>설문 대상자 이름</h2>
+        <h2><input type="text" name="name" value="이름을 입력하세요"></h2>
+        <h2>설문 대상자 나이</h2>
+        <h2><input type="text" name="age" value="나이를 입력하세요"></h2>
+        <h2>설문 대상자 거주지역</h2>
+        <h2><input type="text" name="address" value="주소를 입력하세요"></h2>
+        <h2>설문 대상자 성별</h2>
+        <select>
+            <option value="male">남성</option>
+            <option value="female">여성</option>
+            <option value="visexual">중성</option>
+            <option value="transgender">변성</option>
+            <option value="girasung">기라성</option>
+        </select>
+        <br>
+        <br>
+        <input type="submit">
+    </fieldset>
+    </form>
+    <br>
+    <br>
+    <br>
+    <h1>질문</h1>
+        <fieldset>
+          <div>
+            <form action="">
+            <ul>
+                <h2>질문1 : 불라불라 불라불라</h2>
+                <li>
+                    <input type="radio" name="select" value="1">1번 선택지
+                </li>
+                <li>
+                    <input type="radio" name="select" value="2">2번 선택지
+                </li>
+                <li>
+                    <input type="radio" name="select" value="3">3번 선택지
+                </li>
+                <li>
+                    <input type="radio" name="select" value="4">4번 선택지
+                </li>
+            </ul>
+            </form>
+        </div>
+        
+        <div>
+            <form action="">
+            <ul>
+                <h2>질문2 : 불라불라 불라불라2</h2>
+                <li>
+                    <input type="radio" name="select" value="1">1번 선택지
+                </li>
+                <li>
+                    <input type="radio" name="select" value="2">2번 선택지
+                </li>
+                <li>
+                    <input type="radio" name="select" value="3">3번 선택지
+                </li>
+                <li>
+                    <input type="radio" name="select" value="4">4번 선택지
+                </li>
+            </ul>
+        </form>
+        </div>
+        <div>
+            <form action="">
+            <ul>
+                <h2>질문3 : 불라불라 불라불라3(중복 가능)</h2>
+                <li>
+                    <input type="checkbox" name="select" value="1">1번 선택지
+                </li>
+                <li>
+                    <input type="checkbox" name="select" value="2">2번 선택지
+                </li>
+                <li>
+                    <input type="checkbox" name="select" value="3">3번 선택지
+                </li>
+                <li>
+                    <input type="checkbox" name="select" value="4">4번 선택지
+                </li>
+            </ul>
+        </form>
+        </div>
+        <div>
+            <form action="">
+            <br>
+                <h2>그 밖에 건의사항 등이 있으면 적어주세요</h2>
+                <input type="text" name="complain"style="width:1000px; height:300px; font: size 10px;">
+            </form>
+        </div>
+                <br>
+            <input type="submit">
+        </fieldset>
+</div>
+</body>
+</html>
