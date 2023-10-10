@@ -1,0 +1,3 @@
+프로젝트 내에 src/main/webapp/WEB-INF/bin/test.txt 파일이다.,
+인풋스트림을 써서 가져올거다,
+차렷
